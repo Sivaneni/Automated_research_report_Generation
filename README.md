@@ -77,7 +77,7 @@ uv add -r requirements.txt
 
 ### work flow
 
-![Alt text]workflow.png
+![Alt text](workflow.png)
 
 
 ---
