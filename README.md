@@ -74,7 +74,11 @@ Note: If it is a custom env then copy the path from that folder
 ```bash
 uv add -r requirements.txt
 ```
-```
+
+### work flow
+
+![Alt text]workflow.png
+
 
 ---
 
