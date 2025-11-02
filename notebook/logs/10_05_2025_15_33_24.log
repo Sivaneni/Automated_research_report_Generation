@@ -1,0 +1,24 @@
+{"timestamp": "2025-10-05T10:03:24.730213Z", "level": "info", "event": "GOOGLE_API_KEY loaded from environment"}
+{"timestamp": "2025-10-05T10:03:24.731215Z", "level": "info", "event": "GROQ_API_KEY loaded from environment"}
+{"timestamp": "2025-10-05T10:03:24.731215Z", "level": "warning", "event": "ASTRA_DB_API_ENDPOINT is missing from environment"}
+{"timestamp": "2025-10-05T10:03:24.732214Z", "level": "warning", "event": "ASTRA_DB_APPLICATION_TOKEN is missing from environment"}
+{"timestamp": "2025-10-05T10:03:24.732214Z", "level": "warning", "event": "ASTRA_DB_KEYSPACE is missing from environment"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-05T10:03:24.735457Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "openai", "model": "gpt-4o", "timestamp": "2025-10-05T10:03:24.736456Z", "level": "info", "event": "Loading LLM"}
+{"provider": "openai", "timestamp": "2025-10-05T10:03:24.736456Z", "level": "error", "event": "Unsupported LLM provider"}
+{"timestamp": "2025-10-05T10:05:22.793092Z", "level": "info", "event": "GOOGLE_API_KEY loaded from environment"}
+{"timestamp": "2025-10-05T10:05:22.794092Z", "level": "info", "event": "GROQ_API_KEY loaded from environment"}
+{"timestamp": "2025-10-05T10:05:22.794092Z", "level": "warning", "event": "ASTRA_DB_API_ENDPOINT is missing from environment"}
+{"timestamp": "2025-10-05T10:05:22.795103Z", "level": "warning", "event": "ASTRA_DB_APPLICATION_TOKEN is missing from environment"}
+{"timestamp": "2025-10-05T10:05:22.796090Z", "level": "warning", "event": "ASTRA_DB_KEYSPACE is missing from environment"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-05T10:05:22.798602Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "openai", "model": "gpt-4o", "timestamp": "2025-10-05T10:05:22.799605Z", "level": "info", "event": "Loading LLM"}
+{"provider": "openai", "timestamp": "2025-10-05T10:05:22.800607Z", "level": "error", "event": "Unsupported LLM provider"}
+{"timestamp": "2025-10-05T10:09:25.775913Z", "level": "info", "event": "GOOGLE_API_KEY loaded from environment"}
+{"timestamp": "2025-10-05T10:09:25.778432Z", "level": "info", "event": "GROQ_API_KEY loaded from environment"}
+{"timestamp": "2025-10-05T10:09:25.779432Z", "level": "warning", "event": "ASTRA_DB_API_ENDPOINT is missing from environment"}
+{"timestamp": "2025-10-05T10:09:25.781435Z", "level": "warning", "event": "ASTRA_DB_APPLICATION_TOKEN is missing from environment"}
+{"timestamp": "2025-10-05T10:09:25.782434Z", "level": "warning", "event": "ASTRA_DB_KEYSPACE is missing from environment"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-05T10:09:25.785953Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "openai", "model": "gpt-4o", "timestamp": "2025-10-05T10:09:25.787461Z", "level": "info", "event": "Loading LLM"}
+{"provider": "openai", "timestamp": "2025-10-05T10:09:25.788469Z", "level": "error", "event": "Unsupported LLM provider"}

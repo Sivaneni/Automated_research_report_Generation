@@ -1,0 +1,52 @@
+{"timestamp": "2025-10-31T18:53:39.369381Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2025-10-31T18:53:39.371376Z", "level": "info", "event": "OPENAI_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-10-31T18:53:39.372377Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-10-31T18:53:39.372377Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "D:\\LLM_Projects\\automated_research_report_generation\\Automated_research_report_Generation\\research_and_analysts\\config\\configuration.yaml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-31T18:53:39.378476Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-31T18:53:39.380473Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "openai", "model": "gpt-4o", "timestamp": "2025-10-31T18:53:39.380473Z", "level": "info", "event": "Loading LLM"}
+{"provider": "openai", "model": "gpt-4o", "timestamp": "2025-10-31T18:53:41.243357Z", "level": "info", "event": "LLM loaded successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-31T18:53:41.245603Z", "level": "info", "event": "Building report generation graph"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-31T18:53:41.245603Z", "level": "info", "event": "Building Interview Graph workflow"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-31T18:53:41.258399Z", "level": "info", "event": "Interview Graph compiled successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-31T18:53:41.269723Z", "level": "info", "event": "Report generation graph built successfully"}
+{"module": "ReportService", "topic": "devops in ai", "thread_id": "d49229e0-651b-47ea-9be3-ed77ea627a50", "timestamp": "2025-10-31T18:53:41.270723Z", "level": "info", "event": "Starting report pipeline"}
+{"module": "AutonomousReportGenerator", "topic": "devops in ai", "timestamp": "2025-10-31T18:53:41.273081Z", "level": "info", "event": "Creating analyst personas"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "AutonomousReportGenerator", "count": 3, "timestamp": "2025-10-31T18:53:46.330475Z", "level": "info", "event": "Analysts created"}
+{"module": "ReportService", "name": "Dr. Emily Chen", "affiliation": "Tech Innovators Inc.", "role": "AI Systems Architect", "description": "Dr. Chen focuses on the integration of DevOps practices in AI development. She is particularly interested in how continuous integration and continuous deployment (CI/CD) pipelines can be optimized for machine learning models. Her work aims to streamline the deployment process of AI systems to ensure they are scalable and maintainable.", "timestamp": "2025-10-31T18:53:46.333493Z", "level": "info", "event": "Analyst created"}
+{"module": "ReportService", "name": "Raj Patel", "affiliation": "Global Data Solutions", "role": "Data Security Specialist", "description": "Raj Patel is concerned with the security implications of implementing DevOps in AI environments. He explores how DevOps practices can be adapted to enhance the security of AI systems, particularly in protecting sensitive data and ensuring compliance with data protection regulations. His goal is to develop robust security frameworks that can be integrated into AI DevOps workflows.", "timestamp": "2025-10-31T18:53:46.334247Z", "level": "info", "event": "Analyst created"}
+{"module": "ReportService", "name": "Dr. Lisa Gomez", "affiliation": "AI Ethics Consortium", "role": "Ethical AI Researcher", "description": "Dr. Gomez examines the ethical considerations of using DevOps in AI. She is interested in how the rapid deployment cycles enabled by DevOps can impact ethical decision-making in AI systems. Her research focuses on ensuring that ethical guidelines are embedded in the DevOps processes to prevent biases and ensure fairness in AI applications.", "timestamp": "2025-10-31T18:53:46.335260Z", "level": "info", "event": "Analyst created"}
+{"timestamp": "2025-10-31T18:53:51.209888Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2025-10-31T18:53:51.209888Z", "level": "info", "event": "OPENAI_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-10-31T18:53:51.209888Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-10-31T18:53:51.209888Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "D:\\LLM_Projects\\automated_research_report_generation\\Automated_research_report_Generation\\research_and_analysts\\config\\configuration.yaml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-31T18:53:51.211888Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-31T18:53:51.211888Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "openai", "model": "gpt-4o", "timestamp": "2025-10-31T18:53:51.212889Z", "level": "info", "event": "Loading LLM"}
+{"provider": "openai", "model": "gpt-4o", "timestamp": "2025-10-31T18:53:51.212889Z", "level": "info", "event": "LLM loaded successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-31T18:53:51.212889Z", "level": "info", "event": "Building report generation graph"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-31T18:53:51.213888Z", "level": "info", "event": "Building Interview Graph workflow"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-31T18:53:51.219890Z", "level": "info", "event": "Interview Graph compiled successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-31T18:53:51.226893Z", "level": "info", "event": "Report generation graph built successfully"}
+{"module": "AutonomousReportGenerator", "topic": "devops in ai", "timestamp": "2025-10-31T18:53:51.227898Z", "level": "info", "event": "Initiating interviews for all analysts"}
+{"module": "AutonomousReportGenerator", "count": 0, "timestamp": "2025-10-31T18:53:51.227898Z", "level": "info", "event": "Number of analysts found"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-31T18:53:51.227898Z", "level": "warning", "event": "No analysts found \u2014 skipping interviews"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-31T18:53:51.229901Z", "level": "warning", "event": "Final report content is None \u2014 generating fallback report."}
+{"module": "AutonomousReportGenerator", "topic": "devops in ai", "format": "docx", "timestamp": "2025-10-31T18:53:51.229901Z", "level": "info", "event": "Saving report"}
+{"module": "AutonomousReportGenerator", "path": "D:\\LLM_Projects\\automated_research_report_generation\\Automated_research_report_Generation\\generated_report\\devops_in_ai_20251101_002351\\devops_in_ai_20251101_002351.docx", "timestamp": "2025-10-31T18:53:51.261318Z", "level": "info", "event": "Report saved successfully"}
+{"module": "AutonomousReportGenerator", "topic": "devops in ai", "format": "pdf", "timestamp": "2025-10-31T18:53:51.261318Z", "level": "info", "event": "Saving report"}
+{"module": "AutonomousReportGenerator", "path": "D:\\LLM_Projects\\automated_research_report_generation\\Automated_research_report_Generation\\generated_report\\devops_in_ai_20251101_002351\\devops_in_ai_20251101_002351.pdf", "timestamp": "2025-10-31T18:53:51.264324Z", "level": "info", "event": "Centered PDF saved successfully"}
+{"module": "AutonomousReportGenerator", "path": "D:\\LLM_Projects\\automated_research_report_generation\\Automated_research_report_Generation\\generated_report\\devops_in_ai_20251101_002351\\devops_in_ai_20251101_002351.pdf", "timestamp": "2025-10-31T18:53:51.265322Z", "level": "info", "event": "Report saved successfully"}
+{"timestamp": "2025-10-31T18:54:17.003256Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2025-10-31T18:54:17.004256Z", "level": "info", "event": "OPENAI_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-10-31T18:54:17.004256Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-10-31T18:54:17.004256Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "D:\\LLM_Projects\\automated_research_report_generation\\Automated_research_report_Generation\\research_and_analysts\\config\\configuration.yaml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-31T18:54:17.007256Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-31T18:54:17.008256Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "openai", "model": "gpt-4o", "timestamp": "2025-10-31T18:54:17.008256Z", "level": "info", "event": "Loading LLM"}
+{"provider": "openai", "model": "gpt-4o", "timestamp": "2025-10-31T18:54:17.009256Z", "level": "info", "event": "LLM loaded successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-31T18:54:17.010256Z", "level": "info", "event": "Building report generation graph"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-31T18:54:17.011260Z", "level": "info", "event": "Building Interview Graph workflow"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-31T18:54:17.028483Z", "level": "info", "event": "Interview Graph compiled successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-31T18:54:17.037489Z", "level": "info", "event": "Report generation graph built successfully"}
