@@ -39,7 +39,7 @@ pipeline {
         deleteDir()
         // Clone the repository
         git branch: 'main',
-            url: 'https://github.com/yashprogrammer/automated-research-report-generation.git'
+            url: 'https://github.com/Sivaneni/Automated_research_report_Generation.git'
     }
 }
         
@@ -70,7 +70,7 @@ pipeline {
                 sh '''
                     # Add your test commands here
                     # For now, just verify imports work
-                    python3 -c "from research_and_analyst.api.main import app; print('✅ Imports successful')"
+                    python3 -c "from research_and_analysts.api.main import app; print('✅ Imports successful')"
                 '''
             }
         }
