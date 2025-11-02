@@ -1,0 +1,16 @@
+{"timestamp": "2025-10-05T10:01:32.979266Z", "level": "warning", "event": "OPENAI_API_KEY is missing from environment"}
+{"timestamp": "2025-10-05T10:01:32.981226Z", "level": "info", "event": "GOOGLE_API_KEY loaded from environment"}
+{"timestamp": "2025-10-05T10:01:32.982213Z", "level": "info", "event": "GROQ_API_KEY loaded from environment"}
+{"timestamp": "2025-10-05T10:01:32.983216Z", "level": "warning", "event": "ASTRA_DB_API_ENDPOINT is missing from environment"}
+{"timestamp": "2025-10-05T10:01:32.984345Z", "level": "warning", "event": "ASTRA_DB_APPLICATION_TOKEN is missing from environment"}
+{"timestamp": "2025-10-05T10:01:32.986512Z", "level": "warning", "event": "ASTRA_DB_KEYSPACE is missing from environment"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-05T10:01:32.990058Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "openai", "model": "gpt-4o", "timestamp": "2025-10-05T10:01:32.992058Z", "level": "info", "event": "Loading LLM"}
+{"timestamp": "2025-10-05T10:02:47.694557Z", "level": "warning", "event": "OPENAI_API_KEY is missing from environment"}
+{"timestamp": "2025-10-05T10:02:47.695105Z", "level": "info", "event": "GOOGLE_API_KEY loaded from environment"}
+{"timestamp": "2025-10-05T10:02:47.695639Z", "level": "info", "event": "GROQ_API_KEY loaded from environment"}
+{"timestamp": "2025-10-05T10:02:47.696181Z", "level": "warning", "event": "ASTRA_DB_API_ENDPOINT is missing from environment"}
+{"timestamp": "2025-10-05T10:02:47.696752Z", "level": "warning", "event": "ASTRA_DB_APPLICATION_TOKEN is missing from environment"}
+{"timestamp": "2025-10-05T10:02:47.697843Z", "level": "warning", "event": "ASTRA_DB_KEYSPACE is missing from environment"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-05T10:02:47.700594Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "openai", "model": "gpt-4o", "timestamp": "2025-10-05T10:02:47.701208Z", "level": "info", "event": "Loading LLM"}
